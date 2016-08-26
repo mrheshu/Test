@@ -26,6 +26,7 @@ class Dttest(unittest.TestCase):
         sleep(5)
         print('test passed')
     
+    #text测试
     def test_m(cls):
         cls.driver.find_element_by_xpath("//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]/UIAButton[1]").click()
         sleep(5)
